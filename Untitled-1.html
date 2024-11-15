@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document my</title>
+</head>
+
+<body>
+    <header>
+        <pre>
+            <p> S.NO     NAME    MARKS
+        </pre>
+    </header>
+    <main>
+         <section>this tab will just writd</section>
+         <article>this will shows</article>
+         <aside>this is not main </aside>
+         <a href="https://www.youtube.com/watch?v=HcOc7P5BMi4" target="_main">
+            <img src="https://play-lh.googleusercontent.com/6am0i3walYwNLc08QOOhRJttQENNGkhlKajXSERf3JnPVRQczIyxw2w3DxeMRTOSdsY" alt="Google" height="100"/></a>
+         <div>
+            <!--the matter will take complete one box-->
+            <p>hi man</p>
+            <p>how are you</p>
+         </div> 
+         <div>
+            <p>hi man</p>
+            <p>how are you</p>
+         </div> 
+         <span>it takes width as same the content.....it is an  inline element</span> 
+         </main>
+         <footer>
+            <h5>if u have any issues pls free to conatact at such@gmail.com</h5>
+         </footer>
+         <p>ther are fruits</p>
+         <ul>
+            <li>apple</li>
+            <ul>  <!--this will go inside of apple as a sublist-->
+                <li>colour:red</li>
+                <li>season:winter</li>
+            </ul>
+            <li>mango</li>
+            <li>watwermelon</li>
+         </ul>
+         <ol>   <!--this will go inside of apple as a sublist-->
+            <li>apple</li>
+            <ol>
+                <li>colour:red</li>
+                <li>season:winter</li>
+            </ol>
+            <li>mango</li>
+            <li>watwermelon</li>
+         </ol>
+         <table>
+            <caption><b>INFORMATION</b></caption>
+        <thead><!--no special use for this if we inspect then we will get that table row as a single block-->
+            <tr>
+                <th colspan="2">NAME</th><!--colspan is used to merge columns in a table by a single heading the no represents the no of columns thst should come under the head-->
+            </tr>
+        </thead>
+        <tbody><!--no special use for this if we inspect then we will get that table row as a single block-->
+            <tr>
+                <td>suchith</td>
+                <td>17</td> 
+            </tr>
+            <tr>
+                <td>abhi</td>
+                <td>17</td> 
+            </tr>
+        </tbody>
+        </table>
+        <form action="/data recieved.php"> <!--recived data from the user will be stored in ths file-->
+              <input type="text" placeholder="username" />
+              <input type="password" placeholder="passworde" /> <!--use of type as password is to dont show the matter inside it but it shows as points but it gives u a chance to see by a eye sumbol-->
+              <!-- <input type="radio" value="class 11" name="class">class11
+              <input type="radio" value="class 13" name="class">class12
+              using radio will like a single correct answer but to select the option we have to click on the dot only -->
+              <br>
+              <label> <!--to selct the option we can click on the name itself but takes only one line body-->
+                <input type="radio" value="class 11" name="class" id="i">class11 <!--it stores input value that is given to value here-->
+              </label>
+              <br>
+              <label>
+                <input type="radio" value="class 13" name="class">class12
+              </label>
+              <h2>select your favourite subjects please</h2>
+              <br>
+              <label for="math"> <!--if u give for="" then we have to select the box only not value to selcect it-->
+                <input type="checkbox" vale="maths" id="subject" name="anything">maths <!--by using checkbox we can take multiple answer-->
+              </label>
+              <br>
+              <label for="phy">
+                <input type="checkbox" vale="physics" id="subject" name="anything">phy
+              </label>
+              <br>
+              <label for="che">
+                <input type="checkbox" vale="chemistry" id="subject" name="anything">che
+              </label>
+              <br>
+              <label for="computer">
+                <input type="checkbox" vale="computer" id="subject" name="anything">CSE
+              </label>
+              <!--here i given same id's so the values i recived will be stored in same block named as id-->
+              <br>
+              <select name="city">
+                <option value="kakinada">kakinada</option>
+                <option value="annavaram">annavaram</option>
+              </select>
+              <br>
+              <br>
+              <textarea name="feedback" id="u" placeholder="pls give your valuable feedback here" rows="4" coloumns="8"></textarea>
+              <!--you can give any rows or columns but it just to display a box , it will take more information as u give-->
+              <br>
+              <input type="submit" value="submit">
+              <br><br>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=QAsi8wT8cKBQPXBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <!--iframe is used to use a web inside our web-->
+              <br><br>
+              <iframe width="300" height="200" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=QAsi8wT8cKBQPXBU"></iframe>
+              <vedio src="link"  controls></vedio>
+        </form>
+
+</body>
+</html>

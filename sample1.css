@@ -1,0 +1,67 @@
+h1{
+    color:rgb(69, 212, 37);
+    background-color: rgb(214, 160, 53);
+}
+p{
+    color: brown;
+    line-height:10px; /*it is the line hieght */
+}
+button{
+    color: blue;
+    background-color: bisque;  
+}
+body{
+    background-color: rgb(226, 226, 43);
+}
+
+*{
+    color:rgb(230, 31, 157) ;
+}
+#wow{
+    color:chocolate;
+    background-color:aquamarine ; /*this only for inside box not for outer box*/
+    text-transform: capitalize; /*can also use uppercase lowercase etc */
+    font-size: 20px;
+    height: 100px; /*from here all will come around background */
+    width: 150px;
+    /* border-width:3px; 
+    border-style: dashed;
+    border-color: blue; */
+    border: 3px dashed blue;
+    border-radius: 5px;  /* it will create fillet at corner: */
+    text-align: center;
+    /* padding-top:2px;
+    padding-right:3px;
+    padding-bottom:2px;
+    padding-left:  3px; */
+    padding:3px; /*it apply for all four*/
+    /* padding:1px 2px 3px 4px; aplly in clockwise dirrection top right bottom left same for margin also*/
+    margin-top:20px;
+    margin-bottom:10px;
+
+}
+.i{
+    color: maroon;
+}
+.hi{
+    color:blanchedalmond;
+}
+/* we can select more at a time and can give combinely the colors like h1,h2,h3{
+                                                                                    color:red      
+                                                                                                }*/
+p{
+    text-align: right; /*this will first write the txt as normal and just move the lines to right u can also alignit in centre also */
+}
+h1{ /*h1 controls size and font weight controls how thick it should be */
+    text-align: center;
+    text-decoration: blue underline;
+    font-weight: 900;
+    font-size: 100px; 
+}
+a{
+    text-decoration: none;
+}
+h4{
+    font-family: cursive
+}
+

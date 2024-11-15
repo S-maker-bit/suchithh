@@ -1,0 +1,17 @@
+div{
+    background-color: black;
+    height:40px;
+    width:1400px;
+}
+a{
+    margin-right:200px;
+    color:white
+}
+#i {
+    color:rgba(255,0,0,0.5); /* by using opacity that is the last no we can lighter the color*/
+
+    text-decoration: none;
+}
+button{
+    background-color:yellow;
+}
